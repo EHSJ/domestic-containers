@@ -111,7 +111,7 @@
 
 >Drone is a Continuous Delivery platform that helps your organization optimize and automate software delivery. |
 >
-> [Home][drone_h] | [Docker Hub][drone_dh] | [Source][drone_src] | [Doc][drone_doc] || [Volver](#Pieces)
+> [Home][drone_h] | [Docker Hub][drone_dh] | [Source][drone_src] | [Doc][drone_doc] || [Back](#Pieces)
 
 [Drone]: #Drone
 [drone_h]: https://drone.io/
@@ -126,7 +126,7 @@
 >
 > Jenkins can be installed through native system packages, Docker, or even run standalone by any machine with a Java Runtime Environment (JRE) installed.
 >
-> [Home][jenkins_h] | [Docker Hub][jenkins_dh] | [Source][jenkins_src] | [Doc][jenkins_doc] || [Volver](#Pieces)
+> [Home][jenkins_h] | [Docker Hub][jenkins_dh] | [Source][jenkins_src] | [Doc][jenkins_doc] || [Back](#Pieces)
 
 [Jenkins]: #Jenkins
 [jenkins_h]: https://jenkins.io/
@@ -139,7 +139,7 @@
 
 > WordPress is a free and open source blogging tool and a content management system (CMS) based on PHP and MySQL, which runs on a web hosting service. Features include a plugin architecture and a template system. WordPress is used by more than 22.0% of the top 10 million websites as of August 2013. WordPress is the most popular blogging system in use on the Web, at more than 60 million websites. The most popular languages used are English, Spanish and Bahasa Indonesia.
 >
-> [Home][wp_h] | [Docker Hub][wp_dh] | [Source][wp_src] || [Volver](#Pieces)
+> [Home][wp_h] | [Docker Hub][wp_dh] | [Source][wp_src] || [Back](#Pieces)
 
 [WordPress]: #WordPress
 [wp_h]: https://wordpress.org/
@@ -152,7 +152,7 @@
 
 > Ghost is a free and open source blogging platform written in JavaScript and distributed under the MIT License, designed to simplify the process of online publishing for individual bloggers as well as online publications.
 >
-> [Home][ghost_h] | [Docker Hub][ghost_dh] | [Doc][ghost_doc] || [Volver](#Pieces)
+> [Home][ghost_h] | [Docker Hub][ghost_dh] | [Doc][ghost_doc] || [Back](#Pieces)
 
 [Ghost]: #Ghost
 [ghost_h]: https://ghost.org
@@ -166,7 +166,7 @@
 >
 > The intent is also to maintain high compatibility with MySQL, ensuring a "drop-in" replacement capability with library binary equivalency and exact matching with MySQL APIs and commands. It includes the XtraDB storage engine for replacing InnoDB, as well as a new storage engine, Aria, that intends to be both a transactional and non-transactional engine perhaps even included in future versions of MySQL.
 >
-> [Home][maria_h] | [Docker Hub][maria_dh]| [LinuxServer.io][maria_lsi] | [Source][maria_src] | [Doc][maria_doc] || [Volver](#Pieces)
+> [Home][maria_h] | [Docker Hub][maria_dh]| [LinuxServer.io][maria_lsi] | [Source][maria_src] | [Doc][maria_doc] || [Back](#Pieces)
 
 [MariaDb]: #MariaDb
 [maria_h]: https://mariadb.org/
@@ -182,7 +182,7 @@
 >
 > PostgreSQL implements the majority of the SQL:2011 standard, is ACID-compliant and transactional (including most DDL statements) avoiding locking issues using multiversion concurrency control (MVCC), provides immunity to dirty reads and full serializability; handles complex SQL queries using many indexing methods that are not available in other databases; has updateable views and materialized views, triggers, foreign keys; supports functions and stored procedures, and other expandability, and has a large number of extensions written by third parties. In addition to the possibility of working with the major proprietary and open source databases, PostgreSQL supports migration from them, by its extensive standard SQL support and available migration tools. And if proprietary extensions had been used, by its extensibility that can emulate many through some built-in and third-party open source compatibility extensions, such as for Oracle.
 >
-> [Home][postgres_h] | [Docker Hub][postgres_dh] | [Source][postgres_src] | [Doc][postgres_doc] || [Volver](#Pieces)
+> [Home][postgres_h] | [Docker Hub][postgres_dh] | [Source][postgres_src] | [Doc][postgres_doc] || [Back](#Pieces)
 
 [Postgres]: #Postgres
 [postgres_h]: https://www.postgresql.org/
@@ -194,7 +194,7 @@
 
 > Redis is an open-source, networked, in-memory, key-value data store with optional durability. It is written in ANSI C. The development of Redis is sponsored by Redis Labs today; before that, it was sponsored by Pivotal and VMware. According to the monthly ranking by DB-Engines.com, Redis is the most popular key-value store. The name Redis means REmote DIctionary Server.
 >
-> [Home][redis_h] | [Docker Hub][redis_dh] | [Source][redis_src] | [Doc][redis_doc] || [Volver](#Pieces)
+> [Home][redis_h] | [Docker Hub][redis_dh] | [Source][redis_src] | [Doc][redis_doc] || [Back](#Pieces)
 
 [Redis]: #Redis
 [redis_h]: https://redis.io/
@@ -206,7 +206,7 @@
 
 > info
 >
-> [Home][<tag>_h] | [Docker Hub][<tag>_dh] | [Source][<tag>_src] | [Doc][<tag>_doc] || [Volver](#Pieces)
+> [Home][<tag>_h] | [Docker Hub][<tag>_dh] | [Source][<tag>_src] | [Doc][<tag>_doc] || [Back](#Pieces)
 
 [ElasticSearch]: #ElasticSearch
 [<tag>_h]: https://#
@@ -231,7 +231,7 @@
 >
 > Single click remote server access to Taisun and your Docker applications
 >
-> [Home][taisun_h] | [Docker Hub][taisun_dh] | [Source][taisun_src] | [Doc][taisun_doc] || [Volver](#Pieces)
+> [Home][taisun_h] | [Docker Hub][taisun_dh] | [Source][taisun_src] | [Doc][taisun_doc] || [Back](#Pieces)
 
 [Taisun]: #Taisun
 [taisun_h]: https://www.taisun.io/
@@ -243,7 +243,7 @@
 
 > Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alerts can be sent to any mobile device.
 >
-> [Home][domoticz_h] | [Docker Hub][domoticz_dh] | [Source][domoticz_src] | [Doc][domoticz_doc] || [Volver](#Pieces)
+> [Home][domoticz_h] | [Docker Hub][domoticz_dh] | [Source][domoticz_src] | [Doc][domoticz_doc] || [Back](#Pieces)
 
 [Domoticz]: #Domoticz
 [domoticz_h]: https://www.domoticz.com/

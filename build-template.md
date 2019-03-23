@@ -17,7 +17,7 @@
 
 > info
 >
-> [Home][<tag>_h] | [Docker Hub][<tag>_dh] | [Source][<tag>_src] | [Doc][<tag>_doc] || [Volver](#Pieces)
+> [Home][<tag>_h] | [Docker Hub][<tag>_dh] | [Source][<tag>_src] | [Doc][<tag>_doc] || [Back](#Pieces)
 
 [<name>]: #<name>
 [<tag>_h]: https://#
