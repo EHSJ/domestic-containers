@@ -87,15 +87,15 @@
 
 ### Archs
 
-|   #   |       x86-32       |       x86-64       |         armhf         |       arm64        |
-| :---: | :----------------: | :----------------: | :-------------------: | :----------------: |
-|  [x]  | :heavy_check_mark: |                    |                       |                    |
-|  [y]  |                    | :heavy_check_mark: |                       |                    |
-|  [a]  |                    |                    | Ye:heavy_check_mark:s |                    |
-|  [r]  |                    |                    |                       | :heavy_check_mark: |
-|  [3]  | :heavy_check_mark: |                    |  :heavy_check_mark:   |                    |
-|  [6]  |                    | :heavy_check_mark: |                       | :heavy_check_mark: |
-|  [*]  | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:   | :heavy_check_mark: |
+|   #   |       x86-32       |       x86-64       |       armhf        |       arm64        |
+| :---: | :----------------: | :----------------: | :----------------: | :----------------: |
+|  [x]  | :heavy_check_mark: |                    |                    |                    |
+|  [y]  |                    | :heavy_check_mark: |                    |                    |
+|  [a]  |                    |                    | :heavy_check_mark: |                    |
+|  [r]  |                    |                    |                    | :heavy_check_mark: |
+|  [3]  | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
+|  [6]  |                    | :heavy_check_mark: |                    | :heavy_check_mark: |
+|  [*]  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
  [x]: #Archs "x86-32"
  [y]: #Archs "x86-64"
