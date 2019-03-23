@@ -16,3 +16,8 @@ Docker containers are built by layers, usually it uses a linux flavour base imag
 [DockerHub]: https://hub.docker.com/search/?q=&type=image&image_filter=official
 [DockerHub_Arm]: https://hub.docker.com/search/?q=&type=image&architecture=arm&image_filter=official
 [LinuxServer.io]: https://www.linuxserver.io/
+
+## Doc in Dev
+
+- [codex.md](codex.md)
+- [build-template](build-template)
