@@ -13,7 +13,7 @@ Docker containers are built by layers, usually it uses a linux flavour base imag
 - [LinuxServer.io] A reference team.
 
 [DockerDocs]: https://docs.docker.com/
-[DockerHub]: https://hub.docker.com/search/?q=&type=image&image_filter=official
+[DockerHub]: https://hub.docker.com/search/?q=&type=image
 [DockerHub_Arm]: https://hub.docker.com/search/?q=&type=image&architecture=arm&image_filter=official
 [LinuxServer.io]: https://www.linuxserver.io/
 

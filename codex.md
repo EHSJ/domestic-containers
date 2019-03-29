@@ -35,14 +35,14 @@
  [py ]: #Tags "Python"
  [php]: #Tags "PHP Hypertext preprocessor"
  [jvm]: #Tags "Java"
- [tom]: #Tags "Tomcat"
+ [tom]: #Tags "Apache Tomcat"
  [gol]: #Tags "GoLang"
  [njs]: #Tags "NodeJs"
  [sql]: #Tags "mySQL"
  [sl3]: #Tags "sqLite3"
  [psg]: #Tags "PostGre"
 
-| Family           | Candicate           | Tags                              |   Arch. | Ports       | Notes |
+| Family           | Candidate           | Tags                              |   Arch. | Ports       | Notes |
 | ---------------- | ------------------- | --------------------------------- | ------: | ----------- | ----- |
 | [Automatization] | **[Drone]**         | [ofc], [gol]                      | [a] [6] | 80          |
 | [Automatization] | **[Jenkins]**       | [ofc], [alp], [jvm]               |     [*] | 8080, 50000 |
