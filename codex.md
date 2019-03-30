@@ -18,7 +18,7 @@
 [Photo]: #Families "Photo library"
 [RSS]: #Families "Feeds"
 [ServiceHub]: #Families "Front end"
-[SyncBox]: #Families "Sync your data"
+[Sync]: #Families "Sync your data"
 [Onion]: #Families "Onnion routing"
 [Torrent]: #Families "Download your stuff"
 [VPN]: #Families "Be allways in your lan"
@@ -42,51 +42,51 @@
  [sl3]: #Tags "sqLite3"
  [psg]: #Tags "PostGre"
 
-| Family           | Candidate                | Tags                              |   Arch. | Ports       | Notes |
-| ---------------- | ------------------------ | --------------------------------- | ------: | ----------- | ----- |
-| [Automatization] | **[Drone]**              | [ofc], [gol]                      | [a] [6] | 80          |
-| [Automatization] | **[Jenkins]**            | [ofc], [alp], [jvm]               |     [*] | 8080, 50000 |
-| [Blog]           | **[WordPress]**          | [ofc], [alp], [php], [sql]        |     [*] | 80          |
-| [Blog]           | **[Ghost]**              | [ofc], [alp], [njs], [sql], [sl3] |     [*] | 2368        |
-| [DataBase]       | **[MariaDB]**            | [ofc], [lsv], [ubu]               | [a] [6] | 3306        |
-| [DataBase]       | **[Postgres]**           | [ofc], [alp]                      |     [*] | 5432        |
-| [DataBase]       | **[Redis]**              | [ofc], [alp]                      |     [*] | 6379        |
-| [DataBase]       | **[ElasticSearch]**      | [ofc], [alp], [jvm]               |     [X] |
-| [DockerAdmin]    | **[Taisun]**             | [alp]                             | [a] [6] |
-| [Domotics]       | **[Domoticz]**           |                                   | [a] [6] |
+| Family           | Candidate           | Tags                              |   Arch. | Ports       | Notes |
+| ---------------- | ------------------- | --------------------------------- | ------: | ----------- | ----- |
+| [Automatization] | **[Drone]**         | [ofc], [gol]                      | [a] [6] | 80          |
+| [Automatization] | **[Jenkins]**       | [ofc], [alp], [jvm]               |     [*] | 8080, 50000 |
+| [Blog]           | **[WordPress]**     | [ofc], [alp], [php], [sql]        |     [*] | 80          |
+| [Blog]           | **[Ghost]**         | [ofc], [alp], [njs], [sql], [sl3] |     [*] | 2368        |
+| [DataBase]       | **[MariaDB]**       | [ofc], [lsv], [ubu]               | [a] [6] | 3306        |
+| [DataBase]       | **[Postgres]**      | [ofc], [alp]                      |     [*] | 5432        |
+| [DataBase]       | **[Redis]**         | [ofc], [alp]                      |     [*] | 6379        |
+| [DataBase]       | **[ElasticSearch]** | [ofc], [alp], [jvm]               |     [X] |
+| [DockerAdmin]    | **[Taisun]**        | [alp]                             | [a] [6] |
+| [Domotics]       | **[Domoticz]**      |                                   | [a] [6] |
 | **InProgress**   |
-| [ERP]            | **[Clarkson]**           |                                   | [a] [6] |
-| [ERP]            | **[Grocy]**              | [php], [alp], [ngx]               | [a] [6] |
-| [ERP]            | **[Snipe-IT]**           | [alp], [php]                      | [a] [6] |
-| [Git]            | **[Gogs]**               | [sql], [sl3], [psg]               |         |
-| [Library]        | **[Calibre-Web]**        | [py]                              | [a] [6] |
-| [Library]        | **[Ubooquity]**          |                                   | [a] [6] |
-| [Metrics]        | **[Prometheus]**         |                                   |         |
-| [Metrics]        | **[Grafana]**            |                                   |         |
-| [Multimedia]     | **[Plex]**               | [ubu]                             |         |
-| [Multimedia]     | **[Libresonic]**         | [lsv], [jvm]                      | [a] [6] |
-| [Multimedia]     | **[Beets]**              |                                   | [a] [6] |
-| [Others]         | **[Draw-io]**            | [alp], [tom]                      |         |
-| [Others]         | **[GazeboSim]**          | [deb], [ubu]                      |         |
-| [Photo]          | **[Piwigo]**             | [lsv], [alp], [php]               | [a] [6] |
-| [Photo]          | **[Lychee]**             | [lsv], [alp], [php]               | [a] [6] |
-| [Photo]          | **[PhotoShow]**          | [lsv], [alp], [php]               | [a] [6] |
-| [RSS]            | **[Tt-rss]**             | [lsv], [alp], [php]               | [a] [6] |
-| [RSS]            | **[FreshRSS]**           | [lsv], [alp], [php]               | [a] [6] |
-| [ServiceHub]     | **[Organizr]**           | [lsv], [alp], [php]               | [a] [6] |
-| [ServiceHub]     | **[Heimdall]**           |                                   | [a] [6] |
-| [Sync]           | **[Firefox SyncServer]** | [py]                              |         |
-| [SyncBox]        | **[Pydio]**              | [lsv], [alp], [php]               | [a] [6] |
-| [SyncBox]        | **[NextClud]**           | [php]                             |         |
-| [SyncBox]        | **[OwnCloud]**           | [php]                             |         |
-| [SyncBox]        | **[SyncThing]**          |                                   |         |
-| [Onion]          | **[Tor]**                |                                   |         |
-| [Torrent]        | **[Transmision]**        | [alp]                             |         |
-| [VPN]            | **[OpenVpn]**            |                                   |     [y] |
-| [WebServer]      | **[Nginx]**              | [alp]                             |         |
-| [WebServer]      | **[Httpd]**              | [alp]                             |         |
-| [Wiki]           | **[BookStak]**           | [lsv], [alp], [php]               | [a] [6] |
-| [Wiki]           | **[MediaWiki]**          | [php], [sql]                      |         |
+| [ERP]            | **[Clarkson]**      |                                   | [a] [6] |
+| [ERP]            | **[Grocy]**         | [php], [alp], [ngx]               | [a] [6] |
+| [ERP]            | **[Snipe-IT]**      | [alp], [php]                      | [a] [6] |
+| [Git]            | **[Gogs]**          | [sql], [sl3], [psg]               |         |
+| [Library]        | **[Calibre-Web]**   | [py]                              | [a] [6] |
+| [Library]        | **[Ubooquity]**     |                                   | [a] [6] |
+| [Metrics]        | **[Prometheus]**    |                                   |         |
+| [Metrics]        | **[Grafana]**       |                                   |         |
+| [Multimedia]     | **[Plex]**          | [ubu]                             |         |
+| [Multimedia]     | **[Libresonic]**    | [lsv], [jvm]                      | [a] [6] |
+| [Multimedia]     | **[Beets]**         |                                   | [a] [6] |
+| [Others]         | **[Draw-io]**       | [alp], [tom]                      |         |
+| [Others]         | **[GazeboSim]**     | [deb], [ubu]                      |         |
+| [Photo]          | **[Piwigo]**        | [lsv], [alp], [php]               | [a] [6] |
+| [Photo]          | **[Lychee]**        | [lsv], [alp], [php]               | [a] [6] |
+| [Photo]          | **[PhotoShow]**     | [lsv], [alp], [php]               | [a] [6] |
+| [RSS]            | **[Tt-rss]**        | [lsv], [alp], [php]               | [a] [6] |
+| [RSS]            | **[FreshRSS]**      | [lsv], [alp], [php]               | [a] [6] |
+| [ServiceHub]     | **[Organizr]**      | [lsv], [alp], [php]               | [a] [6] |
+| [ServiceHub]     | **[Heimdall]**      |                                   | [a] [6] |
+| [Sync]           | **[SyncServer]**    | [py]                              |         |
+| [Sync]           | **[Pydio]**         | [lsv], [alp], [php]               | [a] [6] |
+| [Sync]           | **[NextClud]**      | [php]                             |         |
+| [Sync]           | **[OwnCloud]**      | [php]                             |         |
+| [Sync]           | **[SyncThing]**     |                                   |         |
+| [Onion]          | **[Tor]**           |                                   |         |
+| [Torrent]        | **[Transmision]**   | [alp]                             |         |
+| [VPN]            | **[OpenVpn]**       |                                   |     [y] |
+| [WebServer]      | **[Nginx]**         | [alp]                             |         |
+| [WebServer]      | **[Httpd]**         | [alp]                             |         |
+| [Wiki]           | **[BookStak]**      | [lsv], [alp], [php]               | [a] [6] |
+| [Wiki]           | **[MediaWiki]**     | [php], [sql]                      |         |
 
 ### Archs
 
