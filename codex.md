@@ -42,51 +42,52 @@
  [sl3]: #Tags "sqLite3"
  [psg]: #Tags "PostGre"
 
-| Family           | Candidate           | Tags                              |   Arch. | Ports            | Notes |
-| ---------------- | ------------------- | --------------------------------- | ------: | ---------------- | ----- |
-| [Automatization] | **[Drone]**         | [ofc], [gol]                      | [a] [6] | 80               |
-| [Automatization] | **[Jenkins]**       | [ofc], [alp], [jvm]               |     [*] | 8080, 50000      |
-| [Blog]           | **[WordPress]**     | [ofc], [alp], [php], [sql]        |     [*] | 80               |
-| [Blog]           | **[Ghost]**         | [ofc], [alp], [njs], [sql], [sl3] |     [*] | 2368             |
-| [DataBase]       | **[MariaDB]**       | [ofc], [lsv], [ubu]               | [a] [6] | 3306             |
-| [DataBase]       | **[Postgres]**      | [ofc], [alp]                      |     [*] | 5432             |
-| [DataBase]       | **[Redis]**         | [ofc], [alp]                      |     [*] | 6379             |
-| [DataBase]       | **[ElasticSearch]** | [ofc], [alp], [jvm]               |     [X] |
-| [DockerAdmin]    | **[Taisun]**        | [alp]                             | [a] [6] |
-| [Domotics]       | **[Domoticz]**      |                                   | [a] [6] | 8080, 6144, 1443 |
+| Family           | Candidate           | Tags                              | Arch. | Ports            | Notes |
+| ---------------- | ------------------- | --------------------------------- | :---: | ---------------- | ----- |
+| [Automatization] | **[Drone]**         | [ofc], [gol]                      |  [m]  | 80               |
+| [Automatization] | **[Jenkins]**       | [ofc], [alp], [jvm]               |  [*]  | 8080, 50000      |
+| [Blog]           | **[WordPress]**     | [ofc], [alp], [php], [sql]        |  [*]  | 80               |
+| [Blog]           | **[Ghost]**         | [ofc], [alp], [njs], [sql], [sl3] |  [*]  | 2368             |
+| [DataBase]       | **[MariaDB]**       | [ofc], [lsv], [ubu]               |  [m]  | 3306             |
+| [DataBase]       | **[Postgres]**      | [ofc], [alp]                      |  [*]  | 5432             |
+| [DataBase]       | **[Redis]**         | [ofc], [alp]                      |  [*]  | 6379             |
+| [DataBase]       | **[ElasticSearch]** | [ofc], [alp], [jvm]               |  [x]  |
+| [DockerAdmin]    | **[Taisun]**        | [alp]                             |  [m]  |
+| [Domotics]       | **[Domoticz]**      |                                   |  [m]  | 8080, 6144, 1443 |
 | **InProgress**   |
-| [ERP]            | **[Clarkson]**      |                                   | [a] [6] |
-| [ERP]            | **[Grocy]**         | [php], [alp], [ngx]               | [a] [6] |
-| [ERP]            | **[Snipe-IT]**      | [alp], [php]                      | [a] [6] |
-| [Git]            | **[Gogs]**          | [sql], [sl3], [psg]               |         |
-| [Library]        | **[Calibre-Web]**   | [py]                              | [a] [6] |
-| [Library]        | **[Ubooquity]**     |                                   | [a] [6] |
-| [Metrics]        | **[Prometheus]**    |                                   |         |
-| [Metrics]        | **[Grafana]**       |                                   |         |
-| [Multimedia]     | **[Plex]**          | [ubu]                             |         |
-| [Multimedia]     | **[Libresonic]**    | [lsv], [jvm]                      | [a] [6] |
-| [Multimedia]     | **[Beets]**         |                                   | [a] [6] |
-| [Others]         | **[Draw-io]**       | [alp], [tom]                      |         |
-| [Others]         | **[GazeboSim]**     | [deb], [ubu]                      |         |
-| [Photo]          | **[Piwigo]**        | [lsv], [alp], [php]               | [a] [6] |
-| [Photo]          | **[Lychee]**        | [lsv], [alp], [php]               | [a] [6] |
-| [Photo]          | **[PhotoShow]**     | [lsv], [alp], [php]               | [a] [6] |
-| [RSS]            | **[Tt-rss]**        | [lsv], [alp], [php]               | [a] [6] |
-| [RSS]            | **[FreshRSS]**      | [lsv], [alp], [php]               | [a] [6] |
-| [ServiceHub]     | **[Organizr]**      | [lsv], [alp], [php]               | [a] [6] |
-| [ServiceHub]     | **[Heimdall]**      |                                   | [a] [6] |
-| [Sync]           | **[SyncServer]**    | [py]                              |         |
-| [Sync]           | **[Pydio]**         | [lsv], [alp], [php]               | [a] [6] |
-| [Sync]           | **[NextClud]**      | [php]                             |         |
-| [Sync]           | **[OwnCloud]**      | [php]                             |         |
-| [Sync]           | **[SyncThing]**     |                                   |         |
-| [Onion]          | **[Tor]**           |                                   |         |
-| [Torrent]        | **[Transmision]**   | [alp]                             |         |
-| [VPN]            | **[OpenVpn]**       |                                   |     [y] |
-| [WebServer]      | **[Nginx]**         | [alp]                             |         |
-| [WebServer]      | **[Httpd]**         | [alp]                             |         |
-| [Wiki]           | **[BookStak]**      | [lsv], [alp], [php]               | [a] [6] |
-| [Wiki]           | **[MediaWiki]**     | [php], [sql]                      |         |
+| [ERP]            | **[Clarkson]**      |                                   |  [m]  |
+| [ERP]            | **[Grocy]**         | [php], [alp], [ngx]               |  [m]  |
+| [ERP]            | **[Snipe-IT]**      | [alp], [php]                      |  [m]  |
+| [Git]            | **[Gogs]**          | [sql], [sl3], [psg]               |       |
+| [Library]        | **[Calibre-Web]**   | [py]                              |  [m]  |
+| [Library]        | **[Ubooquity]**     |                                   |  [m]  |
+| [Metrics]        | **[Prometheus]**    |                                   |       |
+| [Metrics]        | **[Grafana]**       |                                   |       |
+| [Multimedia]     | **[Plex]**          | [ubu]                             |       |
+| [Multimedia]     | **[Libresonic]**    | [lsv], [jvm]                      |  [m]  |
+| [Multimedia]     | **[Beets]**         |                                   |  [m]  |
+| [Others]         | **[Draw-io]**       | [alp], [tom]                      |       |
+| [Others]         | **[GazeboSim]**     | [deb], [ubu]                      |       |
+| [Photo]          | **[Piwigo]**        | [lsv], [alp], [php]               |  [m]  |
+| [Photo]          | **[Lychee]**        | [lsv], [alp], [php]               |  [m]  |
+| [Photo]          | **[PhotoShow]**     | [lsv], [alp], [php]               |  [m]  |
+| [RSS]            | **[Tt-rss]**        | [lsv], [alp], [php]               |  [m]  |
+| [RSS]            | **[FreshRSS]**      | [lsv], [alp], [php]               |  [m]  |
+| [ServiceHub]     | **[Organizr]**      | [lsv], [alp], [php]               |  [m]  |
+| [ServiceHub]     | **[Heimdall]**      |                                   |  [m]  |
+| [Sync]           | **[SyncServer]**    | [py]                              |       |
+| [Sync]           | **[Pydio]**         | [lsv], [alp], [php]               |  [m]  |
+| [Sync]           | **[NextClud]**      | [php]                             |       |
+| [Sync]           | **[OwnCloud]**      | [php]                             |       |
+| [Sync]           | **[SyncThing]**     |                                   |       |
+| [Onion]          | **[Tor]**           |                                   |       |
+| [Torrent]        | **[Transmision]**   | [alp]                             |       |
+| [VPN]            | **[OpenVpn]**       |                                   |  [y]  |
+| [WebServer]      | **[Nginx]**         | [alp]                             |       |
+| [WebServer]      | **[Httpd]**         | [alp]                             |       |
+| [Wiki]           | **[BookStak]**      | [lsv], [alp], [php]               |  [m]  |
+| [Wiki]           | **[MediaWiki]**     | [php], [sql]                      |       |
+| [Wiki]           | **[XWiki]**         | [tom], [sql]                      |  [6]  |
 
 ### Archs
 
@@ -98,6 +99,7 @@
 |  [r]  |                    |                    |                    | :heavy_check_mark: |
 |  [3]  | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
 |  [6]  |                    | :heavy_check_mark: |                    | :heavy_check_mark: |
+|  [m]  |                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 |  [*]  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
  [x]: #Archs "x86-32"
@@ -106,6 +108,7 @@
  [r]: #Archs "arm64"
  [3]: #Archs "all x32"
  [6]: #Archs "all x64"
+ [m]: #Archs "all x64 + armhf"
  [*]: #Archs "all archs"
 
 ## Description
