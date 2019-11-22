@@ -42,18 +42,18 @@
  [sl3]: #Tags "sqLite3"
  [psg]: #Tags "PostGre"
 
-| Family           | Candidate           | Tags                              |   Arch. | Ports       | Notes |
-| ---------------- | ------------------- | --------------------------------- | ------: | ----------- | ----- |
-| [Automatization] | **[Drone]**         | [ofc], [gol]                      | [a] [6] | 80          |
-| [Automatization] | **[Jenkins]**       | [ofc], [alp], [jvm]               |     [*] | 8080, 50000 |
-| [Blog]           | **[WordPress]**     | [ofc], [alp], [php], [sql]        |     [*] | 80          |
-| [Blog]           | **[Ghost]**         | [ofc], [alp], [njs], [sql], [sl3] |     [*] | 2368        |
-| [DataBase]       | **[MariaDB]**       | [ofc], [lsv], [ubu]               | [a] [6] | 3306        |
-| [DataBase]       | **[Postgres]**      | [ofc], [alp]                      |     [*] | 5432        |
-| [DataBase]       | **[Redis]**         | [ofc], [alp]                      |     [*] | 6379        |
+| Family           | Candidate           | Tags                              |   Arch. | Ports            | Notes |
+| ---------------- | ------------------- | --------------------------------- | ------: | ---------------- | ----- |
+| [Automatization] | **[Drone]**         | [ofc], [gol]                      | [a] [6] | 80               |
+| [Automatization] | **[Jenkins]**       | [ofc], [alp], [jvm]               |     [*] | 8080, 50000      |
+| [Blog]           | **[WordPress]**     | [ofc], [alp], [php], [sql]        |     [*] | 80               |
+| [Blog]           | **[Ghost]**         | [ofc], [alp], [njs], [sql], [sl3] |     [*] | 2368             |
+| [DataBase]       | **[MariaDB]**       | [ofc], [lsv], [ubu]               | [a] [6] | 3306             |
+| [DataBase]       | **[Postgres]**      | [ofc], [alp]                      |     [*] | 5432             |
+| [DataBase]       | **[Redis]**         | [ofc], [alp]                      |     [*] | 6379             |
 | [DataBase]       | **[ElasticSearch]** | [ofc], [alp], [jvm]               |     [X] |
 | [DockerAdmin]    | **[Taisun]**        | [alp]                             | [a] [6] |
-| [Domotics]       | **[Domoticz]**      |                                   | [a] [6] |
+| [Domotics]       | **[Domoticz]**      |                                   | [a] [6] | 8080, 6144, 1443 |
 | **InProgress**   |
 | [ERP]            | **[Clarkson]**      |                                   | [a] [6] |
 | [ERP]            | **[Grocy]**         | [php], [alp], [ngx]               | [a] [6] |
