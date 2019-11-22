@@ -26,34 +26,35 @@
 [Wiki]: #Families
 
  [ofc]: #Tags "Official docker image available"
+ [ops]: #Tags "Open Source"
  [lsv]: #Tags "LinuxServer.io build available"
  [alp]: #Tags "Base available: Linux Alpine"
  [deb]: #Tags "Base available: Debian"
  [ubu]: #Tags "Base available: Ubuntu"
  [ngx]: #Tags "Can run on Nginx"
  [apc]: #Tags "Can run on Apache"
- [py ]: #Tags "Python"
+ [py ]: #Tags "Python Coded"
  [php]: #Tags "PHP Hypertext preprocessor"
- [jvm]: #Tags "Java"
- [tom]: #Tags "Apache Tomcat"
- [gol]: #Tags "GoLang"
- [njs]: #Tags "NodeJs"
- [sql]: #Tags "mySQL"
- [sl3]: #Tags "sqLite3"
- [psg]: #Tags "PostGre"
+ [jvm]: #Tags "Java Coded"
+ [tom]: #Tags "Uses Apache Tomcat"
+ [gol]: #Tags "GoLang Coded"
+ [njs]: #Tags "NodeJs Coded"
+ [sql]: #Tags "Can use mySQL"
+ [sl3]: #Tags "Can use sqLite3"
+ [psg]: #Tags "Can use PostGre"
 
-| Family           | Candidate           | Tags                              | Arch. | Ports            | Notes |
-| ---------------- | ------------------- | --------------------------------- | :---: | ---------------- | ----- |
-| [Automatization] | **[Drone]**         | [ofc], [gol]                      |  [m]  | 80               |
-| [Automatization] | **[Jenkins]**       | [ofc], [alp], [jvm]               |  [*]  | 8080, 50000      |
-| [Blog]           | **[WordPress]**     | [ofc], [alp], [php], [sql]        |  [*]  | 80               |
-| [Blog]           | **[Ghost]**         | [ofc], [alp], [njs], [sql], [sl3] |  [*]  | 2368             |
-| [DataBase]       | **[MariaDB]**       | [ofc], [lsv], [ubu]               |  [m]  | 3306             |
-| [DataBase]       | **[Postgres]**      | [ofc], [alp]                      |  [*]  | 5432             |
-| [DataBase]       | **[Redis]**         | [ofc], [alp]                      |  [*]  | 6379             |
+| Family           | Candidate           | Tags                              | Arch. | Ports              | Notes |
+| ---------------- | ------------------- | --------------------------------- | :---: | ------------------ | ----- |
+| [Automatization] | **[Drone]**         | [ofc], [gol]                      |  [m]  | 80                 |
+| [Automatization] | **[Jenkins]**       | [ofc], [alp], [jvm]               |  [*]  | 8080, 50000        |
+| [Blog]           | **[WordPress]**     | [ofc], [alp], [php], [sql]        |  [*]  | 80                 |
+| [Blog]           | **[Ghost]**         | [ofc], [alp], [njs], [sql], [sl3] |  [*]  | 2368               |
+| [DataBase]       | **[MariaDB]**       | [ofc], [lsv], [ubu]               |  [m]  | 3306               |
+| [DataBase]       | **[Postgres]**      | [ofc], [alp]                      |  [*]  | 5432               |
+| [DataBase]       | **[Redis]**         | [ofc], [alp]                      |  [*]  | 6379               |
 | [DataBase]       | **[ElasticSearch]** | [ofc], [alp], [jvm]               |  [x]  |
 | [DockerAdmin]    | **[Taisun]**        | [alp]                             |  [m]  |
-| [Domotics]       | **[Domoticz]**      |                                   |  [m]  | 8080, 6144, 1443 |
+| [Domotics]       | **[Domoticz]**      |                                   |  [m]  | 8080, 6144, 1443   |
 | **InProgress**   |
 | [ERP]            | **[Clarkson]**      |                                   |  [m]  |
 | [ERP]            | **[Grocy]**         | [php], [alp], [ngx]               |  [m]  |
@@ -66,7 +67,7 @@
 | [Multimedia]     | **[Plex]**          | [ubu]                             |       |
 | [Multimedia]     | **[Libresonic]**    | [lsv], [jvm]                      |  [m]  |
 | [Multimedia]     | **[Beets]**         |                                   |  [m]  |
-| [Others]         | **[Draw-io]**       | [alp], [tom]                      |       |
+| [Others]         | **[Draw-io]**       | [alp], [jvm], [tom]               |       |
 | [Others]         | **[GazeboSim]**     | [deb], [ubu]                      |       |
 | [Photo]          | **[Piwigo]**        | [lsv], [alp], [php]               |  [m]  |
 | [Photo]          | **[Lychee]**        | [lsv], [alp], [php]               |  [m]  |
@@ -79,7 +80,7 @@
 | [Sync]           | **[Pydio]**         | [lsv], [alp], [php]               |  [m]  |
 | [Sync]           | **[NextClud]**      | [php]                             |       |
 | [Sync]           | **[OwnCloud]**      | [php]                             |       |
-| [Sync]           | **[SyncThing]**     |                                   |       |
+| [Sync]           | **[SyncThing]**     | [gol]                             |       | 8384, 22000, 21027 |
 | [Onion]          | **[Tor]**           |                                   |       |
 | [Torrent]        | **[Transmision]**   | [alp]                             |       |
 | [VPN]            | **[OpenVpn]**       |                                   |  [y]  |
@@ -87,7 +88,7 @@
 | [WebServer]      | **[Httpd]**         | [alp]                             |       |
 | [Wiki]           | **[BookStak]**      | [lsv], [alp], [php]               |  [m]  |
 | [Wiki]           | **[MediaWiki]**     | [php], [sql]                      |       |
-| [Wiki]           | **[XWiki]**         | [tom], [sql]                      |  [6]  |
+| [Wiki]           | **[XWiki]**         | [ofc], [tom], [sql], [psg]        |  [6]  |
 
 ### Archs
 
@@ -115,7 +116,7 @@
 
 ### Drone
 
->Drone is a Continuous Delivery platform that helps your organization optimize and automate software delivery. |
+>Drone is a Continuous Delivery platform that helps your organization optimize and automate software delivery.
 >
 > [Home][drone_h] | [Docker Hub][drone_dh] | [Source][drone_src] | [Doc][drone_doc] || [Back](#Pieces)
 
@@ -124,7 +125,7 @@
 [drone_dh]: https://hub.docker.com/r/drone/drone
 [drone_src]: https://github.com/drone/drone
 [drone_doc]: https://docs.drone.io/
-[drone_logo]: https://docs.drone.io/favicon-32x32.png
+[drone_logo]: https://docs.drone.io/logo.svg
 
 ### Jenkins
 
@@ -163,7 +164,7 @@
 [Ghost]: #Ghost
 [ghost_h]: https://ghost.org
 [ghost_dh]: https://hub.docker.com/_/ghost
-[ghost_src]: #
+[ghost_src]: https://github.com/TryGhost/Ghost
 [ghost_doc]: https://docs.ghost.org/concepts/introduction/
 
 ### MariaDb
@@ -205,21 +206,20 @@
 [Redis]: #Redis
 [redis_h]: https://redis.io/
 [redis_dh]: https://hub.docker.com/_/redis
-[redis_src]: #
-[redis_doc]: #
+[redis_src]: https://github.com/antirez/redis
+[redis_doc]: https://redis.io/documentation
 
 ### ElasticSearch
 
-> info
+> Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents. Elasticsearch is developed in Java. Following an open-core business model, parts of the software are licensed under various open-source licenses, while other parts fall under the proprietary ones.
 >
-> [Home][<tag>_h] | [Docker Hub][<tag>_dh] | [Source][<tag>_src] | [Doc][<tag>_doc] || [Back](#Pieces)
+> [Home][es_h] | [Docker Hub][es_dh] | [Source][es_src] | [Doc][es_doc] || [Back](#Pieces)
 
 [ElasticSearch]: #ElasticSearch
-[<tag>_h]: https://#
-[<tag>_dh]: https://hub.docker.com/_/elasticsearch
-[<tag>_src]: https://#
-[<tag>_doc]: https://#
-[<tag>_logo]: https://#
+[es_h]: https://www.elastic.co/products/elasticsearch
+[es_dh]: https://hub.docker.com/_/elasticsearch
+[es_src]: https://github.com/elastic/elasticsearch
+[es_doc]: https://www.elastic.co/guide/index.html
 
 ### Taisun
 
@@ -251,3 +251,16 @@
 [domoticz_dh]: https://github.com/linuxserver/docker-domoticz
 [domoticz_src]: https://github.com/domoticz/domoticz
 [domoticz_doc]: #
+
+#### SyncThing
+
+> Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers.
+>
+> [Home][syncth_h] | [Docker Hub][syncth_dh] | [Source][syncth_src] | [Doc][syncth_doc] || [Back](#Pieces)
+
+[SyncThing]: #SyncThing
+[syncth_h]: https://#
+[syncth_dh]: https://hub.docker.com/r/syncthing/syncthing
+[syncth_src]: https://github.com/syncthing/syncthing
+[syncth_doc]: https://#
+[syncth_logo]: https://#
