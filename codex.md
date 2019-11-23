@@ -43,19 +43,18 @@
  [sl3]: #Tags "Can use sqLite3"
  [psg]: #Tags "Can use PostGre"
 
-| Family           | Candidate           | Tags                              | Arch. | Ports              | Notes |
-| ---------------- | ------------------- | --------------------------------- | :---: | ------------------ | ----- |
-| [Automatization] | **[Drone]**         | [ofc], [gol]                      |  [m]  | 80                 |
-| [Automatization] | **[Jenkins]**       | [ofc], [alp], [jvm]               |  [*]  | 8080, 50000        |
-| [Blog]           | **[WordPress]**     | [ofc], [alp], [php], [sql]        |  [*]  | 80                 |
-| [Blog]           | **[Ghost]**         | [ofc], [alp], [njs], [sql], [sl3] |  [*]  | 2368               |
-| [DataBase]       | **[MariaDB]**       | [ofc], [lsv], [ubu]               |  [m]  | 3306               |
-| [DataBase]       | **[Postgres]**      | [ofc], [alp]                      |  [*]  | 5432               |
-| [DataBase]       | **[Redis]**         | [ofc], [alp]                      |  [*]  | 6379               |
+| Family           | Candidate           | Tags                              | Arch. |
+| ---------------- | ------------------- | --------------------------------- | :---: |
+| [Automatization] | **[Drone]**         | [ofc], [gol]                      |  [m]  |
+| [Automatization] | **[Jenkins]**       | [ofc], [alp], [jvm]               |  [*]  |
+| [Blog]           | **[WordPress]**     | [ofc], [alp], [php], [sql]        |  [*]  |
+| [Blog]           | **[Ghost]**         | [ofc], [alp], [njs], [sql], [sl3] |  [*]  |
+| [DataBase]       | **[MariaDB]**       | [ofc], [lsv], [ubu]               |  [m]  |
+| [DataBase]       | **[Postgres]**      | [ofc], [alp]                      |  [*]  |
+| [DataBase]       | **[Redis]**         | [ofc], [alp]                      |  [*]  |
 | [DataBase]       | **[ElasticSearch]** | [ofc], [alp], [jvm]               |  [x]  |
 | [DockerAdmin]    | **[Taisun]**        | [alp]                             |  [m]  |
-| [Domotics]       | **[Domoticz]**      |                                   |  [m]  | 8080, 6144, 1443   |
-| **InProgress**   |
+| [Domotics]       | **[Domoticz]**      |                                   |  [m]  |
 | [ERP]            | **[Clarkson]**      |                                   |  [m]  |
 | [ERP]            | **[Grocy]**         | [php], [alp], [ngx]               |  [m]  |
 | [ERP]            | **[Snipe-IT]**      | [alp], [php]                      |  [m]  |
@@ -80,7 +79,7 @@
 | [Sync]           | **[Pydio]**         | [lsv], [alp], [php]               |  [m]  |
 | [Sync]           | **[NextClud]**      | [php]                             |       |
 | [Sync]           | **[OwnCloud]**      | [php]                             |       |
-| [Sync]           | **[SyncThing]**     | [gol]                             |       | 8384, 22000, 21027 |
+| [Sync]           | **[SyncThing]**     | [gol]                             |       |
 | [Onion]          | **[Tor]**           |                                   |       |
 | [Torrent]        | **[Transmision]**   | [alp]                             |       |
 | [VPN]            | **[OpenVpn]**       |                                   |  [y]  |
