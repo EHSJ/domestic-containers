@@ -254,13 +254,12 @@
 
 #### SyncThing
 
-> Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers.
+> Syncthing lets you synchronize your files bidirectionally across multiple devices. This means the creation, modification or deletion of files on one machine will automatically be replicated to your other devices. We believe your data is your data alone and you deserve to choose where it is stored. Therefore Syncthing does not upload your data to the cloud but exchanges your data across your machines as soon as they are online at the same time.
 >
 > [Home][syncth_h] | [Docker Hub][syncth_dh] | [Source][syncth_src] | [Doc][syncth_doc] || [Back](#Pieces)
 
 [SyncThing]: #SyncThing
-[syncth_h]: https://#
+[syncth_h]: https://syncthing.net/
 [syncth_dh]: https://hub.docker.com/r/syncthing/syncthing
 [syncth_src]: https://github.com/syncthing/syncthing
-[syncth_doc]: https://#
-[syncth_logo]: https://#
+[syncth_doc]: https://docs.syncthing.net/#
